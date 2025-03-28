@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 검색 최적화 작업 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="description" content="설문조사 웹사이트 - 학원 선택 시 중요한 요소를 알아보세요.">
+    <meta name="keywords" content="학원, 설문조사, 학원 선택, 교육, 웹사이트">    
+    
+    <title>설문조사 양식</title>
+</head>
+<body>
+    <header>
+        <h1>설문조사 양식</h1>
+        <p>모든 항목에 빠짐없이 체크해주십시오.</p>
+    </header>
+    <hr>
+    <main>
+        <form>            
+            <!-- 개인정보 -->
+            <fieldset style="border: 2px solid black; padding: 10px;">
+                <legend>개인 정보</legend>
+                <label for="name">이&nbsp;&nbsp;름&nbsp;:</label>
+                <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+                <br>
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email" placeholder="이메일을 입력하세요">
+            </fieldset>
+
+            <!-- 설문 -->
+            <fieldset style="border: 2px solid black; padding: 10px;">                
+                <legend>설문</legend>
+
+                <!-- 첫번째 설문 요소 -->
+                <p>연령대가 어떻게 되십니까?</p>
+                <input type="radio" id="age10" name="age" value="10대">
+                <label for="age10">10대</label>
+                <input type="radio" id="age20" name="age" value="20대">
+                <label for="age20">20대</label>
+                <input type="radio" id="age30" name="age" value="30대">
+                <label for="age30">30대</label>
+                <input type="radio" id="age30" name="age" value="30대">
+                <label for="age30">40대</label>
+                <input type="radio" id="age40" name="age" value="30대">
+                <label for="age30">50대</label>
+                <input type="radio" id="other" name="age" value="그외외">
+                <label for="age30">그 외</label>
+                <br>
+                <br>
+
+                <!-- 두번째 설문 요소 -->                            
+                <p>학원을 선택할때 가장 중요하게 생각하는 것은 무엇입니까? 모두 고르시오.</p>
+                <legend>학원 선택 기준</legend>
+                <input type="checkbox" id="location" name="academy" value="위치">
+                <label for="location">위치</label>
+                <input type="checkbox" id="fee" name="academy" value="학원비">
+                <label for="fee">학원비</label>
+                <input type="checkbox" id="instructor" name="academy" value="강사">
+                <label for="instructor">강사</label>
+                <input type="checkbox" id="infra" name="academy" value="시설">
+                <label for="instructor">시설</label>
+            </fieldset>
+            
+            <!-- 기타 의견 -->
+            <fieldset style="border: 2px solid black; padding: 10px;">
+                <legend>기타 의견</legend>
+                <textarea id="comments" name="comments" 
+                rows="4" cols="75" placeholder="기타 의견을 작성하세요">
+                </textarea>    
+
+            </fieldset>
+            <input type="submit">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>입력하느라 수고하셨습니다.</p>
+    </footer>
+</body>
+</html>
