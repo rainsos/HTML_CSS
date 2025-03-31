@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-family: "Single Day", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 640px;
+    margin: 50px auto; /* 자동 여백으로 중앙 정렬 */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333333; 
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* 애니메이션 효과 */
+    margin-bottom: 20px;
+    border: 5px solid #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+img:hover {
+    transform: scale(1.1); /* Hover 시 크기 증가 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Hover 시 그림자 확대 */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333333; 
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+/* 카드 스타일 */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: #2d2d2d;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.5;
+}
